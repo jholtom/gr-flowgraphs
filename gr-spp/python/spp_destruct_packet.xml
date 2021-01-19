@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<block>
+  <name>destruct_packet</name>
+  <key>spp_destruct_packet</key>
+  <category>[spp]</category>
+  <import>execfile("/home/spacecraft/cygnus/gnuradio/gr-spp/python/destruct_packet.py")</import>
+  <make>destruct_packet($elysiumapid, $sf2cmdapid, $tftpapid, $beaconapid, $encrypt, $enckey)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+          <param>
+     <name>Radio APID</name>
+     <key>elysiumapid</key>
+     <type>int</type>
+   </param>
+      <param>
+     <name>SF2CMD APID</name>
+     <key>sf2cmdapid</key>
+     <type>int</type>
+   </param>
+      <param>
+     <name>TFTP APID</name>
+     <key>tftpapid</key>
+     <type>int</type>
+   </param>
+      <param>
+     <name>Beacon APID</name>
+     <key>beaconapid</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>Encryption Mode</name>
+     <key>encrypt</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>Encryption Key</name>
+     <key>enckey</key>
+     <type>string</type>
+   </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+    <!--<vlen>40</vlen>--> <!--This sets the required length of vector coming out -->
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>elysium</name> <!-- Radio -->
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+  </source>
+  <source>
+    <name>sf2cmd</name> <!-- SF2 CMD -->
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+  </source>
+  <source>
+    <name>tftp</name> <!-- TFTP -->
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+  </source>
+  <source>
+    <name>beacon</name> <!-- Beacon -->
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+  </source>
+    <source>
+    <name>out</name> <!-- Any other packets -->
+    <type>message<!-- e.g. int, float, complex, byte, short, xxx_vector, ...--></type>
+  </source>
+  <doc>
+    This block is designed to recieve a Space Packet Protocol (SPP) packet that has been generated using the create_packet block from the SPP library. This recieved packet will be deconstructed to then return the payload data to the user via the output terminal.
+
+    Input: This should be of type message and contain a single SPP packet that the user desires to deconstruct to retrieve the payload data.
+    Output: This is of message type and contains the payload data from inside the recieved packet.
+  </doc>
+</block>

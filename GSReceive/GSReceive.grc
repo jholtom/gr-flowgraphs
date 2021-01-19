@@ -1,0 +1,1948 @@
+options:
+  parameters:
+    author: ''
+    category: '[GRC Hier Blocks]'
+    cmake_opt: ''
+    comment: ''
+    copyright: ''
+    description: ''
+    gen_cmake: 'On'
+    gen_linking: dynamic
+    generate_options: qt_gui
+    hier_block_src_path: '.:'
+    id: top_block
+    max_nouts: '0'
+    output_language: python
+    placement: (0,0)
+    qt_qss_theme: ''
+    realtime_scheduling: '1'
+    run: 'True'
+    run_command: '{python} -u {filename}'
+    run_options: prompt
+    sizing_mode: fixed
+    thread_safe_setters: ''
+    title: ''
+    window_size: ''
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [12, 10]
+    rotation: 0
+    state: enabled
+
+blocks:
+- name: A_beacons
+  id: variable
+  parameters:
+    comment: ''
+    value: '5813'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [406, 1468]
+    rotation: 0
+    state: true
+- name: A_beacons_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '5813'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [406, 1391]
+    rotation: 0
+    state: true
+- name: A_out
+  id: variable
+  parameters:
+    comment: ''
+    value: '5800'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [237, 1468]
+    rotation: 0
+    state: true
+- name: A_out_apid
+  id: variable
+  parameters:
+    comment: ''
+    value: '5800'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [237, 1391]
+    rotation: 0
+    state: true
+- name: A_rx_freq
+  id: variable
+  parameters:
+    comment: ''
+    value: '903789000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [797, 11]
+    rotation: 0
+    state: true
+- name: A_tftp_in
+  id: variable
+  parameters:
+    comment: ''
+    value: '"51014"'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [499, 1468]
+    rotation: 0
+    state: true
+- name: A_tftp_in_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '51014'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [499, 1391]
+    rotation: 0
+    state: true
+- name: A_tftp_out
+  id: variable
+  parameters:
+    comment: ''
+    value: '5814'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [314, 1468]
+    rotation: 0
+    state: true
+- name: A_tftp_out_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '5814'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [314, 1391]
+    rotation: 0
+    state: true
+- name: A_tx_freq
+  id: variable
+  parameters:
+    comment: ''
+    value: '459193000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [495, 1615]
+    rotation: 0
+    state: enabled
+- name: B_beacons
+  id: variable
+  parameters:
+    comment: ''
+    value: '5913'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [852, 1468]
+    rotation: 0
+    state: true
+- name: B_beacons_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '5913'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [852, 1391]
+    rotation: 0
+    state: true
+- name: B_out
+  id: variable
+  parameters:
+    comment: ''
+    value: '5900'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [683, 1468]
+    rotation: 0
+    state: true
+- name: B_out_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '5900'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [683, 1391]
+    rotation: 0
+    state: true
+- name: B_rx_freq
+  id: variable
+  parameters:
+    comment: ''
+    value: '903400000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [898, 11]
+    rotation: 0
+    state: enabled
+- name: B_tftp_in
+  id: variable
+  parameters:
+    comment: ''
+    value: '"51114"'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [945, 1468]
+    rotation: 0
+    state: true
+- name: B_tftp_in_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '51114'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [945, 1391]
+    rotation: 0
+    state: true
+- name: B_tftp_out
+  id: variable
+  parameters:
+    comment: ''
+    value: '5914'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [760, 1468]
+    rotation: 0
+    state: true
+- name: B_tftp_out_0
+  id: variable
+  parameters:
+    comment: ''
+    value: '5914'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [760, 1391]
+    rotation: 0
+    state: true
+- name: B_tx_freq
+  id: variable
+  parameters:
+    comment: ''
+    value: '459000000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [588, 1615]
+    rotation: 0
+    state: true
+- name: bandwidth_time
+  id: variable
+  parameters:
+    comment: ''
+    value: '.5'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [377, 1615]
+    rotation: 0
+    state: true
+- name: frame_length
+  id: variable
+  parameters:
+    comment: ''
+    value: '2040'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [698, 10]
+    rotation: 0
+    state: enabled
+- name: fsk_deviation_hz
+  id: variable
+  parameters:
+    comment: ''
+    value: '75000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [478, 10]
+    rotation: 0
+    state: enabled
+- name: rx_baud_rate
+  id: variable
+  parameters:
+    comment: ''
+    value: '19200'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [282, 9]
+    rotation: 0
+    state: enabled
+- name: rx_samp_rate
+  id: variable
+  parameters:
+    comment: ''
+    value: rx_baud_rate * samp_sym
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [182, 10]
+    rotation: 0
+    state: enabled
+- name: samp_sym
+  id: variable
+  parameters:
+    comment: ''
+    value: '8'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [384, 11]
+    rotation: 0
+    state: enabled
+- name: sensitivity
+  id: variable
+  parameters:
+    comment: ''
+    value: '1.5'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [290, 1615]
+    rotation: 0
+    state: enabled
+- name: transition_bw
+  id: variable
+  parameters:
+    comment: ''
+    value: '1000'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [596, 10]
+    rotation: 0
+    state: enabled
+- name: tx_baud_rate
+  id: variable
+  parameters:
+    comment: ''
+    value: '55652'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [186, 1615]
+    rotation: 0
+    state: enabled
+- name: tx_samp_rate
+  id: variable
+  parameters:
+    comment: ''
+    value: samp_sym*tx_baud_rate
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [79, 1616]
+    rotation: 0
+    state: enabled
+- name: analog_pwr_squelch_xx_0
+  id: analog_pwr_squelch_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha: 1e-3
+    comment: ''
+    gate: 'False'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    ramp: '100'
+    threshold: '-70'
+    type: complex
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [639, 270]
+    rotation: 0
+    state: enabled
+- name: analog_sig_source_x_0
+  id: analog_sig_source_x
+  parameters:
+    affinity: ''
+    alias: ''
+    amp: '1'
+    comment: ''
+    freq: A_rx_freq - actual_freq
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    offset: '0'
+    phase: '0'
+    samp_rate: rx_samp_rate
+    type: complex
+    waveform: analog.GR_COS_WAVE
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [63, 391]
+    rotation: 0
+    state: disabled
+- name: band_pass_filter_0
+  id: band_pass_filter
+  parameters:
+    affinity: ''
+    alias: ''
+    beta: '6.76'
+    comment: ''
+    decim: '1'
+    gain: '1'
+    high_cutoff_freq: rx_baud_rate/1.5
+    interp: '1'
+    low_cutoff_freq: -rx_baud_rate/1.5
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: rx_samp_rate
+    type: fir_filter_ccc
+    width: '2000'
+    win: firdes.WIN_HAMMING
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [876, 237]
+    rotation: 0
+    state: enabled
+- name: blocks_file_sink_0_0_1
+  id: blocks_file_sink
+  parameters:
+    affinity: ''
+    alias: ''
+    append: 'False'
+    comment: ''
+    file: /home/spacecraft/mdrMATLAB/iqSamples.bin
+    type: complex
+    unbuffered: 'False'
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [358, 432]
+    rotation: 0
+    state: disabled
+- name: blocks_multiply_xx_1
+  id: blocks_multiply_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    num_inputs: '2'
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [419, 306]
+    rotation: 0
+    state: disabled
+- name: blocks_pdu_to_tagged_stream_0_0_1
+  id: blocks_pdu_to_tagged_stream
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    tag: packet_len
+    type: byte
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1018, 1872]
+    rotation: 0
+    state: true
+- name: blocks_socket_pdu_0
+  id: blocks_socket_pdu
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    host: 127.0.0.1
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    mtu: '10000'
+    port: '5813'
+    tcp_no_delay: 'False'
+    type: UDP_CLIENT
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [55, 751]
+    rotation: 180
+    state: true
+- name: blocks_socket_pdu_0_0
+  id: blocks_socket_pdu
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    host: 127.0.0.1
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    mtu: '10000'
+    port: '51014'
+    tcp_no_delay: 'False'
+    type: UDP_SERVER
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [108, 1848]
+    rotation: 0
+    state: true
+- name: blocks_socket_pdu_1
+  id: blocks_socket_pdu
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    host: 127.0.0.1
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    mtu: '10000'
+    port: '5814'
+    tcp_no_delay: 'False'
+    type: TCP_SERVER
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [55, 653]
+    rotation: 180
+    state: true
+- name: blocks_socket_pdu_1_0
+  id: blocks_socket_pdu
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    host: 127.0.0.1
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    mtu: '10000'
+    port: '5830'
+    tcp_no_delay: 'False'
+    type: TCP_SERVER
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [54, 555]
+    rotation: 180
+    state: true
+- name: blocks_stream_to_tagged_stream_0
+  id: blocks_stream_to_tagged_stream
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    len_tag_key: '"mod_packet_len"'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    packet_len: 1036*8
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [724, 2096]
+    rotation: 180
+    state: true
+- name: burst_preamble_insert_0
+  id: burst_preamble_insert
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    preamble: '0x8ad8bb2a'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [777, 1872]
+    rotation: 0
+    state: true
+- name: ccsds_reed_solomon_0
+  id: ccsds_reed_solomon
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [901, 693]
+    rotation: 180
+    state: enabled
+- name: digital_additive_scrambler_bb_0
+  id: digital_additive_scrambler_bb
+  parameters:
+    affinity: ''
+    alias: ''
+    bits_per_byte: '1'
+    comment: ''
+    count: '0'
+    len: '8'
+    mask: '0x221'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    reset_tag_key: '"frame_len"'
+    seed: '0x1ff'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1460, 811]
+    rotation: 180
+    state: disabled
+- name: digital_burst_shaper_xx_0
+  id: digital_burst_shaper_xx
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    insert_phasing: 'True'
+    length_tag_name: mod_packet_len
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    post_padding: '10'
+    pre_padding: '10'
+    type: complex
+    window: firdes.window(firdes.WIN_HANN, 50,0)
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [407, 2063]
+    rotation: 180
+    state: true
+- name: digital_gfsk_mod_1
+  id: digital_gfsk_mod
+  parameters:
+    affinity: ''
+    alias: ''
+    bt: bandwidth_time
+    comment: ''
+    log: 'False'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samples_per_symbol: samp_sym
+    sensitivity: sensitivity
+    verbose: 'False'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1031, 2080]
+    rotation: 180
+    state: true
+- name: epy_block_0
+  id: epy_block
+  parameters:
+    _source_code: "\"\"\"\nEmbedded Python Blocks:\n\nEach time this file is saved,\
+      \ GRC will instantiate the first class it finds\nto get ports and parameters\
+      \ of your block. The arguments to __init__  will\nbe the parameters. All of\
+      \ them are required to have default values!\n\"\"\"\n\nimport numpy as np\n\
+      from gnuradio import gr\nimport pmt\nimport struct\nimport scipy.signal\n\n\n\
+      class blk(gr.basic_block):\n    \"\"\"GMSK Packet Decoder\n    \n    Looks for\
+      \ tags from power squelch to know where packets start and end.\n    \"\"\"\n\
+      \    _out_port = pmt.intern(\"out\")\n    packetNum = 1\n    packet = []\n \
+      \   packetStarted = False\n\n\n    def __init__(self):  # only default arguments\
+      \ here\n        \"\"\"arguments to this function show up as parameters in GRC\"\
+      \"\"\n        gr.basic_block.__init__(\n            self,\n            name='mdr\
+      \ GMSK Packet Demod',   # will show up in GRC\n            in_sig=[np.complex64],\n\
+      \            out_sig=[]\n        )\n        self.message_port_register_out(self._out_port)\n\
+      \    \n    def mdrBitSync(self,y):\n        N1 = 8\n        g = np.multiply(1/N1,np.ones((N1,1)))\n\
+      \        Kp = 8.7\n        N2 = 2\n        K0 = -1\n    \n        BnT = 0.02\n\
+      \        zeta = 1\n        temp = BnT/(zeta + 0.25/zeta)\n        d = 1 + 2*zeta/N2\
+      \ * temp + (temp/N2)**2\n        K1 = 4*zeta/N2 * temp / d\n        K2 = (2/N2\
+      \ * temp)**2 / d\n        K1 = K1/(K0*Kp)\n        K2 = K2/(K0*Kp)\n\n     \
+      \   b0 = (K1 + K2)\n        b1 = -K1\n\n        # apply matched filter and downsample\
+      \ to 2 samples/bit\n        xx = scipy.signal.decimate(y,4);\n    \n       \
+      \ # create output vector\n        b = np.zeros(int(0.52*len(xx)))\n        k\
+      \ = 0\n    \n        # initialize PLL states\n        NCO1 = 0\n        W1 =\
+      \ 0\n        Vt1 = 0\n        Et1 = 0\n        MU1 = 0\n    \n        F1 = 0\n\
+      \        F2 = 0\n        F3 = 0\n        F4 = 0\n        F5 = 0\n        F6\
+      \ = 0\n        F7 = 0\n        F8 = 0\n        F9 = 0\n        \n        for\
+      \ idx in range(len(xx)):\n            # check for underflow\n            # if\
+      \ underflow, strobe = 1 compute new mu\n            \n            temp = NCO1\
+      \ - W1\n            if temp < 0:\n                strobe = 1\n             \
+      \   mu = NCO1/W1\n                nco = 1 + temp\n            else:\n      \
+      \          strobe = 0\n                mu = MU1\n                nco = temp\n\
+      \            \n            # if strobe, compute timing error and produce output\n\
+      \        \n            if strobe == 0:\n                et = 0\n           \
+      \ else:\n                # calculate xi(idx)\n                tempFx = -0.5*xx[idx]\n\
+      \                v2 = -tempFx + F1 + F2 - F3\n                v1 = tempFx -\
+      \ F1 + F6 + F2 + F3\n                v0 = F7\n                xi = (v2 * mu\
+      \ + v1) * mu + v0\n            \n                # calculate xi(idx-1)\n   \
+      \             v2 = -F1 + F2 + F3 - F4\n                v1 = F1 - F2 + F7 + F3\
+      \ + F4\n                v0 = F8\n                xi1 = (v2 * mu + v1) * mu +\
+      \ v0\n        \n                # calculate xi(idx-2)\n                v2 =\
+      \ -F2 + F3 + F4 - F5\n                v1 = F2 - F3 + F8 + F4 + F5\n        \
+      \        v0 = F9\n                xi2 = (v2 * mu + v1) * mu + v0\n        \n\
+      \                et = np.sign(xi1) * (xi - xi2)\n          \n              \
+      \  b[k] = (xi1 > 0)\n                k = k + 1      \n            \n       \
+      \     # update loop filter output\n        \n            vt = Vt1 + b0*et +\
+      \ b1*Et1\n        \n            # update NCO input\n        \n            w\
+      \ = vt + 0.5\n        \n            # update states\n        \n            F5\
+      \ = F4\n            F4 = F3\n            F3 = F2\n            F2 = F1\n    \
+      \        F1 = -0.5*xx[idx]\n            F9 = F8\n            F8 = F7\n     \
+      \       F7 = F6\n            F6 = xx[idx]\n        \n            Et1 = et\n\
+      \            Vt1 = vt\n        \n            NCO1 = nco\n            MU1 = mu\n\
+      \            W1 = w\n        \n        b = np.uint8(b[0:k-1])\n        packet\
+      \ = pmt.init_u8vector(len(b),b.tolist())\n        out_packet = pmt.cons(pmt.to_pmt(None),packet)\n\
+      \        self.message_port_pub(self._out_port,out_packet)\n    \n    def mdrDemod(self):\n\
+      \        x = np.array(self.packet)\n        self.packet.clear()\n        if\
+      \ len(x) < 100000:\n            return\n        d = np.array([1,0,-1])\n   \
+      \     dx = np.convolve(d,x)\n        y = np.float32(np.imag(np.conj(x)*dx[1:len(dx)-1])\
+      \ / np.square(np.absolute(x)))\n        self.mdrBitSync(y)\n    \n    def checkSob(self,offset,in_data):\n\
+      \        tags = self.get_tags_in_window(0, offset, len(in_data),pmt.intern('squelch_sob'))\n\
+      \        if len(tags) != 0:\n            relIdx = tags[0].offset - self.nitems_read(0)\n\
+      \            self.packetStarted = True\n            self.checkEob(relIdx,in_data)\n\
+      \n    def checkEob(self,offset,in_data):\n        tags = self.get_tags_in_window(0,\
+      \ offset, len(in_data),pmt.intern('squelch_eob'))\n        if len(tags) == 0:\n\
+      \            self.packet.extend(in_data[offset:len(in_data)])\n        else:\n\
+      \            relIdx = tags[0].offset - self.nitems_read(0)\n            self.packet.extend(in_data[offset:relIdx])\n\
+      \            if len(self.packet) > 125000:\n                self.mdrDemod()\n\
+      \                self.packetNum += 1\n            else:\n                self.packet.clear()\n\
+      \            self.packetStarted = False\n            self.checkSob(relIdx+1,in_data)\n\
+      \n    def general_work(self, input_items, output_items):\n         in_data =\
+      \ input_items[0]\n         \n         if self.packetStarted:\n             self.checkEob(0,in_data)\n\
+      \         else:\n             self.checkSob(0,in_data)\n         \n        \
+      \ self.consume(0, len(in_data))\n         \n         return len(input_items[0])\n"
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+  states:
+    _io_cache: ('mdr GMSK Packet Demod', 'blk', [], [('0', 'complex', 1)], [('out',
+      'message', 1)], 'GMSK Packet Decoder\n    \n    Looks for tags from power squelch
+      to know where packets start and end.\n    ', [])
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1148, 292]
+    rotation: 0
+    state: enabled
+- name: epy_block_1
+  id: epy_block
+  parameters:
+    _source_code: "\"\"\"\nEmbedded Python Blocks:\n\nEach time this file is saved,\
+      \ GRC will instantiate the first class it finds\nto get ports and parameters\
+      \ of your block. The arguments to __init__  will\nbe the parameters. All of\
+      \ them are required to have default values!\n\"\"\"\n\nimport numpy as np\n\
+      from gnuradio import gr\nimport pmt\nfrom pmt import *\nfrom pmt import pmt_to_python\n\
+      \ndef str_to_bits(data):\n    out_data = list()\n    for i in range(len(data)):\n\
+      \        out_data.append(int(data[i]))\n    return out_data\n\nclass blk(gr.basic_block):\
+      \  # other base classes are basic_block, decim_block, interp_block\n    \"\"\
+      \"Embedded Python Block example - a simple multiply const\"\"\"\n\n    _in_port\
+      \ = pmt.intern(\"in\")\n    _out_port = pmt.intern(\"out\")\n\n    def __init__(self,\
+      \ frame_size=2040, access_code='00011010110011111111110000011011', threshold=1):\
+      \  # only default arguments here\n        \"\"\"arguments to this function show\
+      \ up as parameters in GRC\"\"\"\n        gr.sync_block.__init__(\n         \
+      \   self,\n            name='Detect Packet',   # will show up in GRC\n     \
+      \       in_sig=[],\n            out_sig=[]\n        )\n        # if an attribute\
+      \ with the same name as a parameter is found,\n        # a callback is registered\
+      \ (properties work, too).\n        self.frame_size = frame_size\n        self.access_code\
+      \ = str_to_bits(access_code)\n        self.threshold = threshold\n        \n\
+      \        self.message_port_register_in(self._in_port) #this creates the input\
+      \ port for the messages\n        self.set_msg_handler(self._in_port, self.msg_handler_method)\
+      \ #this determines what is done with any recieved messages as soon as they are\
+      \ recieved\n        self.message_port_register_out(self._out_port) #this creates\
+      \ the output port for messages\n        \n    def find_access_code(self):\n\
+      \        ac_len = len(self.access_code)\n        found = False\n        i =\
+      \ 0\n        while len(self.data[i:]) >= ac_len:\n            wrong = 0\n  \
+      \          j = 0\n            while wrong < self.threshold:\n              \
+      \  if self.data[i+j] != self.access_code[j]:\n                    wrong += 1\n\
+      \                j += 1\n                if j == ac_len:\n                 \
+      \   print(\"Detect Packet: Found access code, extracting packet\")\n       \
+      \             self.extract_packet(i+ac_len)\n                    return\n  \
+      \          i += 1\n                \n    def extract_packet(self, idx):\n  \
+      \      self.packet.clear()\n        if len(self.data[idx:])/8 < self.frame_size:\n\
+      \            print(\"Detect Packet: Not enough data for frame size\")\n    \
+      \    for i in range(self.frame_size):\n            sum = 0\n            for\
+      \ j in range(8):\n                sum += self.data[idx+8*i+j] << (7-j)\n   \
+      \         self.packet.append(sum)\n        \n    def msg_handler_method(self,\
+      \ msg):\n        if pmt.is_symbol(msg):\n            msg_str = str(pmt.symbol_to_string(msg))\
+      \ #changes the data back into usable data\n            self.data = msg_str\n\
+      \        elif pmt.is_pair(msg):\n            incoming_dict = pmt.car(msg)\n\
+      \            incoming_data = pmt.cdr(msg)\n            self.data = pmt.to_python(incoming_data).tobytes()\n\
+      \            self.packet = list()\n            self.find_access_code()\n   \
+      \         if len(self.packet) > 0:\n                out_msg = pmt.init_u8vector(len(self.packet),\
+      \ self.packet)\n                deliver_msg = pmt.cons(pmt.to_pmt(None), out_msg)\n\
+      \                self.message_port_pub(self._out_port, deliver_msg)\n\n    def\
+      \ general_work(self, input_items, output_items):\n        print(\"Detect Packet:\
+      \ general_work called?\")\n        return len(output_items[0])\n"
+    access_code: '''00011010110011111111110000011101'''
+    affinity: ''
+    alias: ''
+    comment: ''
+    frame_size: frame_length
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    threshold: '2'
+  states:
+    _io_cache: ('Detect Packet', 'blk', [('frame_size', '2040'), ('access_code', "'00011010110011111111110000011011'"),
+      ('threshold', '1')], [('in', 'message', 1)], [('out', 'message', 1)], 'Embedded
+      Python Block example - a simple multiply const', ['access_code', 'frame_size',
+      'threshold'])
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1107, 673]
+    rotation: 180
+    state: true
+- name: qtgui_const_sink_x_0
+  id: qtgui_const_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    autoscale: 'False'
+    axislabels: 'True'
+    color1: '"black"'
+    color10: '"red"'
+    color2: '"red"'
+    color3: '"red"'
+    color4: '"red"'
+    color5: '"red"'
+    color6: '"red"'
+    color7: '"red"'
+    color8: '"red"'
+    color9: '"red"'
+    comment: ''
+    grid: 'True'
+    gui_hint: tab@2
+    label1: ''
+    label10: ''
+    label2: ''
+    label3: ''
+    label4: ''
+    label5: ''
+    label6: ''
+    label7: ''
+    label8: ''
+    label9: ''
+    legend: 'True'
+    marker1: '8'
+    marker10: '0'
+    marker2: '0'
+    marker3: '0'
+    marker4: '0'
+    marker5: '0'
+    marker6: '0'
+    marker7: '0'
+    marker8: '0'
+    marker9: '0'
+    name: '""'
+    nconnections: '1'
+    size: '1024'
+    style1: '1'
+    style10: '0'
+    style2: '0'
+    style3: '0'
+    style4: '0'
+    style5: '0'
+    style6: '0'
+    style7: '0'
+    style8: '0'
+    style9: '0'
+    tr_chan: '0'
+    tr_level: '0.0'
+    tr_mode: qtgui.TRIG_MODE_FREE
+    tr_slope: qtgui.TRIG_SLOPE_POS
+    tr_tag: '""'
+    type: complex
+    update_time: '0.001'
+    width1: '1'
+    width10: '1'
+    width2: '1'
+    width3: '1'
+    width4: '1'
+    width5: '1'
+    width6: '1'
+    width7: '1'
+    width8: '1'
+    width9: '1'
+    xmax: '2'
+    xmin: '-2'
+    ymax: '2'
+    ymin: '-2'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1150, 62]
+    rotation: 0
+    state: enabled
+- name: qtgui_freq_sink_x_0
+  id: qtgui_freq_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    autoscale: 'False'
+    average: '0.05'
+    axislabels: 'True'
+    bw: rx_samp_rate
+    color1: '"blue"'
+    color10: '"dark blue"'
+    color2: '"red"'
+    color3: '"green"'
+    color4: '"black"'
+    color5: '"cyan"'
+    color6: '"magenta"'
+    color7: '"yellow"'
+    color8: '"dark red"'
+    color9: '"dark green"'
+    comment: ''
+    ctrlpanel: 'True'
+    fc: A_rx_freq
+    fftsize: '1024'
+    freqhalf: 'True'
+    grid: 'False'
+    gui_hint: tab@3
+    label: Relative Gain
+    label1: ''
+    label10: ''''''
+    label2: ''''''
+    label3: ''''''
+    label4: ''''''
+    label5: ''''''
+    label6: ''''''
+    label7: ''''''
+    label8: ''''''
+    label9: ''''''
+    legend: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: '""'
+    nconnections: '1'
+    showports: 'False'
+    tr_chan: '0'
+    tr_level: '0.0'
+    tr_mode: qtgui.TRIG_MODE_FREE
+    tr_tag: '""'
+    type: complex
+    units: dB
+    update_time: '0.10'
+    width1: '1'
+    width10: '1'
+    width2: '1'
+    width3: '1'
+    width4: '1'
+    width5: '1'
+    width6: '1'
+    width7: '1'
+    width8: '1'
+    width9: '1'
+    wintype: firdes.WIN_BLACKMAN_hARRIS
+    ymax: '10'
+    ymin: '-140'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [375, 77]
+    rotation: 0
+    state: true
+- name: qtgui_waterfall_sink_x_0
+  id: qtgui_waterfall_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    axislabels: 'True'
+    bw: rx_samp_rate
+    color1: '0'
+    color10: '0'
+    color2: '0'
+    color3: '0'
+    color4: '0'
+    color5: '0'
+    color6: '0'
+    color7: '0'
+    color8: '0'
+    color9: '0'
+    comment: ''
+    fc: A_rx_freq
+    fftsize: '1024'
+    freqhalf: 'True'
+    grid: 'False'
+    gui_hint: tab@0
+    int_max: '10'
+    int_min: '-140'
+    label1: ''
+    label10: ''
+    label2: ''
+    label3: ''
+    label4: ''
+    label5: ''
+    label6: ''
+    label7: ''
+    label8: ''
+    label9: ''
+    legend: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: '""'
+    nconnections: '1'
+    showports: 'False'
+    type: complex
+    update_time: '0.10'
+    wintype: firdes.WIN_BLACKMAN_hARRIS
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [34, 92]
+    rotation: 180
+    state: enabled
+- name: qtgui_waterfall_sink_x_1
+  id: qtgui_waterfall_sink_x
+  parameters:
+    affinity: ''
+    alias: ''
+    alpha1: '1.0'
+    alpha10: '1.0'
+    alpha2: '1.0'
+    alpha3: '1.0'
+    alpha4: '1.0'
+    alpha5: '1.0'
+    alpha6: '1.0'
+    alpha7: '1.0'
+    alpha8: '1.0'
+    alpha9: '1.0'
+    axislabels: 'True'
+    bw: rx_samp_rate
+    color1: '0'
+    color10: '0'
+    color2: '0'
+    color3: '0'
+    color4: '0'
+    color5: '0'
+    color6: '0'
+    color7: '0'
+    color8: '0'
+    color9: '0'
+    comment: ''
+    fc: '0'
+    fftsize: '1024'
+    freqhalf: 'True'
+    grid: 'False'
+    gui_hint: tab@1
+    int_max: '10'
+    int_min: '-140'
+    label1: ''
+    label10: ''
+    label2: ''
+    label3: ''
+    label4: ''
+    label5: ''
+    label6: ''
+    label7: ''
+    label8: ''
+    label9: ''
+    legend: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    name: '""'
+    nconnections: '1'
+    showports: 'False'
+    type: complex
+    update_time: '0.10'
+    wintype: firdes.WIN_BLACKMAN_hARRIS
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1149, 131]
+    rotation: 0
+    state: enabled
+- name: sdlp_create_frame_0
+  id: sdlp_create_frame
+  parameters:
+    TF_version: '1'
+    affinity: ''
+    alias: ''
+    bypass_flag: '0'
+    comment: ''
+    control_command_flag: '0'
+    fecf: '0'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    ocf: '0'
+    scid: '47'
+    vcid: '31'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [545, 1824]
+    rotation: 0
+    state: enabled
+- name: sdlp_destruct_frame_0
+  id: sdlp_destruct_frame
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [705, 693]
+    rotation: 180
+    state: enabled
+- name: spp_create_packet_0
+  id: spp_create_packet
+  parameters:
+    affinity: ''
+    alias: ''
+    apid: '1014'
+    comment: ''
+    enckey: loremipsumdolore
+    encrypt: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    packetType: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [298, 1848]
+    rotation: 0
+    state: true
+- name: spp_destruct_packet_0
+  id: spp_destruct_packet
+  parameters:
+    affinity: ''
+    alias: ''
+    beaconapid: '813'
+    comment: ''
+    elysiumapid: '830'
+    enckey: loremipsumdolore
+    encrypt: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    sf2cmdapid: '811'
+    tftpapid: '814'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [441, 629]
+    rotation: 180
+    state: enabled
+- name: tab
+  id: qtgui_tab_widget
+  parameters:
+    alias: ''
+    comment: ''
+    gui_hint: ''
+    label0: USRP
+    label1: Squelch
+    label10: Tab 10
+    label11: Tab 11
+    label12: Tab 12
+    label13: Tab 13
+    label14: Tab 14
+    label15: Tab 15
+    label16: Tab 16
+    label17: Tab 17
+    label18: Tab 18
+    label19: Tab 19
+    label2: Constellation
+    label3: FFT
+    label4: Tab 4
+    label5: Tab 5
+    label6: Tab 6
+    label7: Tab 7
+    label8: Tab 8
+    label9: Tab 9
+    num_tabs: '4'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [1492, 39]
+    rotation: 0
+    state: enabled
+- name: uhd_usrp_sink_0_0
+  id: uhd_usrp_sink
+  parameters:
+    affinity: ''
+    alias: ''
+    ant0: TX/RX
+    ant1: TX/RX
+    ant10: ''
+    ant11: ''
+    ant12: ''
+    ant13: ''
+    ant14: ''
+    ant15: ''
+    ant16: ''
+    ant17: ''
+    ant18: ''
+    ant19: ''
+    ant2: ''
+    ant20: ''
+    ant21: ''
+    ant22: ''
+    ant23: ''
+    ant24: ''
+    ant25: ''
+    ant26: ''
+    ant27: ''
+    ant28: ''
+    ant29: ''
+    ant3: ''
+    ant30: ''
+    ant31: ''
+    ant4: ''
+    ant5: ''
+    ant6: ''
+    ant7: ''
+    ant8: ''
+    ant9: ''
+    bw0: tx_samp_rate
+    bw1: tx_samp_rate
+    bw10: '0'
+    bw11: '0'
+    bw12: '0'
+    bw13: '0'
+    bw14: '0'
+    bw15: '0'
+    bw16: '0'
+    bw17: '0'
+    bw18: '0'
+    bw19: '0'
+    bw2: '0'
+    bw20: '0'
+    bw21: '0'
+    bw22: '0'
+    bw23: '0'
+    bw24: '0'
+    bw25: '0'
+    bw26: '0'
+    bw27: '0'
+    bw28: '0'
+    bw29: '0'
+    bw3: '0'
+    bw30: '0'
+    bw31: '0'
+    bw4: '0'
+    bw5: '0'
+    bw6: '0'
+    bw7: '0'
+    bw8: '0'
+    bw9: '0'
+    center_freq0: A_tx_freq
+    center_freq1: B_tx_freq
+    center_freq10: '0'
+    center_freq11: '0'
+    center_freq12: '0'
+    center_freq13: '0'
+    center_freq14: '0'
+    center_freq15: '0'
+    center_freq16: '0'
+    center_freq17: '0'
+    center_freq18: '0'
+    center_freq19: '0'
+    center_freq2: '0'
+    center_freq20: '0'
+    center_freq21: '0'
+    center_freq22: '0'
+    center_freq23: '0'
+    center_freq24: '0'
+    center_freq25: '0'
+    center_freq26: '0'
+    center_freq27: '0'
+    center_freq28: '0'
+    center_freq29: '0'
+    center_freq3: '0'
+    center_freq30: '0'
+    center_freq31: '0'
+    center_freq4: '0'
+    center_freq5: '0'
+    center_freq6: '0'
+    center_freq7: '0'
+    center_freq8: '0'
+    center_freq9: '0'
+    clock_rate: 0e0
+    clock_source0: ''
+    clock_source1: ''
+    clock_source2: ''
+    clock_source3: ''
+    clock_source4: ''
+    clock_source5: ''
+    clock_source6: ''
+    clock_source7: ''
+    comment: ''
+    dev_addr: '""'
+    dev_args: '""'
+    gain0: '65'
+    gain1: '25'
+    gain10: '0'
+    gain11: '0'
+    gain12: '0'
+    gain13: '0'
+    gain14: '0'
+    gain15: '0'
+    gain16: '0'
+    gain17: '0'
+    gain18: '0'
+    gain19: '0'
+    gain2: '0'
+    gain20: '0'
+    gain21: '0'
+    gain22: '0'
+    gain23: '0'
+    gain24: '0'
+    gain25: '0'
+    gain26: '0'
+    gain27: '0'
+    gain28: '0'
+    gain29: '0'
+    gain3: '0'
+    gain30: '0'
+    gain31: '0'
+    gain4: '0'
+    gain5: '0'
+    gain6: '0'
+    gain7: '0'
+    gain8: '0'
+    gain9: '0'
+    len_tag_name: mod_packet_len
+    lo_export0: 'False'
+    lo_export1: 'False'
+    lo_export10: 'False'
+    lo_export11: 'False'
+    lo_export12: 'False'
+    lo_export13: 'False'
+    lo_export14: 'False'
+    lo_export15: 'False'
+    lo_export16: 'False'
+    lo_export17: 'False'
+    lo_export18: 'False'
+    lo_export19: 'False'
+    lo_export2: 'False'
+    lo_export20: 'False'
+    lo_export21: 'False'
+    lo_export22: 'False'
+    lo_export23: 'False'
+    lo_export24: 'False'
+    lo_export25: 'False'
+    lo_export26: 'False'
+    lo_export27: 'False'
+    lo_export28: 'False'
+    lo_export29: 'False'
+    lo_export3: 'False'
+    lo_export30: 'False'
+    lo_export31: 'False'
+    lo_export4: 'False'
+    lo_export5: 'False'
+    lo_export6: 'False'
+    lo_export7: 'False'
+    lo_export8: 'False'
+    lo_export9: 'False'
+    lo_source0: internal
+    lo_source1: internal
+    lo_source10: internal
+    lo_source11: internal
+    lo_source12: internal
+    lo_source13: internal
+    lo_source14: internal
+    lo_source15: internal
+    lo_source16: internal
+    lo_source17: internal
+    lo_source18: internal
+    lo_source19: internal
+    lo_source2: internal
+    lo_source20: internal
+    lo_source21: internal
+    lo_source22: internal
+    lo_source23: internal
+    lo_source24: internal
+    lo_source25: internal
+    lo_source26: internal
+    lo_source27: internal
+    lo_source28: internal
+    lo_source29: internal
+    lo_source3: internal
+    lo_source30: internal
+    lo_source31: internal
+    lo_source4: internal
+    lo_source5: internal
+    lo_source6: internal
+    lo_source7: internal
+    lo_source8: internal
+    lo_source9: internal
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    nchan: '1'
+    norm_gain0: 'False'
+    norm_gain1: 'False'
+    norm_gain10: 'False'
+    norm_gain11: 'False'
+    norm_gain12: 'False'
+    norm_gain13: 'False'
+    norm_gain14: 'False'
+    norm_gain15: 'False'
+    norm_gain16: 'False'
+    norm_gain17: 'False'
+    norm_gain18: 'False'
+    norm_gain19: 'False'
+    norm_gain2: 'False'
+    norm_gain20: 'False'
+    norm_gain21: 'False'
+    norm_gain22: 'False'
+    norm_gain23: 'False'
+    norm_gain24: 'False'
+    norm_gain25: 'False'
+    norm_gain26: 'False'
+    norm_gain27: 'False'
+    norm_gain28: 'False'
+    norm_gain29: 'False'
+    norm_gain3: 'False'
+    norm_gain30: 'False'
+    norm_gain31: 'False'
+    norm_gain4: 'False'
+    norm_gain5: 'False'
+    norm_gain6: 'False'
+    norm_gain7: 'False'
+    norm_gain8: 'False'
+    norm_gain9: 'False'
+    num_mboards: '1'
+    otw: ''
+    samp_rate: tx_samp_rate
+    sd_spec0: A:B
+    sd_spec1: ''
+    sd_spec2: ''
+    sd_spec3: ''
+    sd_spec4: ''
+    sd_spec5: ''
+    sd_spec6: ''
+    sd_spec7: ''
+    show_lo_controls: 'False'
+    stream_args: ''
+    stream_chans: '[]'
+    sync: sync
+    time_source0: ''
+    time_source1: ''
+    time_source2: ''
+    time_source3: ''
+    time_source4: ''
+    time_source5: ''
+    time_source6: ''
+    time_source7: ''
+    type: fc32
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [61, 2049]
+    rotation: 180
+    state: enabled
+- name: uhd_usrp_source_0
+  id: uhd_usrp_source
+  parameters:
+    affinity: ''
+    alias: ''
+    ant0: TX/RX
+    ant1: TX/RX
+    ant10: ''
+    ant11: ''
+    ant12: ''
+    ant13: ''
+    ant14: ''
+    ant15: ''
+    ant16: ''
+    ant17: ''
+    ant18: ''
+    ant19: ''
+    ant2: ''
+    ant20: ''
+    ant21: ''
+    ant22: ''
+    ant23: ''
+    ant24: ''
+    ant25: ''
+    ant26: ''
+    ant27: ''
+    ant28: ''
+    ant29: ''
+    ant3: ''
+    ant30: ''
+    ant31: ''
+    ant4: ''
+    ant5: ''
+    ant6: ''
+    ant7: ''
+    ant8: ''
+    ant9: ''
+    bw0: rx_samp_rate
+    bw1: rx_samp_rate
+    bw10: '0'
+    bw11: '0'
+    bw12: '0'
+    bw13: '0'
+    bw14: '0'
+    bw15: '0'
+    bw16: '0'
+    bw17: '0'
+    bw18: '0'
+    bw19: '0'
+    bw2: '0'
+    bw20: '0'
+    bw21: '0'
+    bw22: '0'
+    bw23: '0'
+    bw24: '0'
+    bw25: '0'
+    bw26: '0'
+    bw27: '0'
+    bw28: '0'
+    bw29: '0'
+    bw3: '0'
+    bw30: '0'
+    bw31: '0'
+    bw4: '0'
+    bw5: '0'
+    bw6: '0'
+    bw7: '0'
+    bw8: '0'
+    bw9: '0'
+    center_freq0: A_rx_freq
+    center_freq1: B_rx_freq
+    center_freq10: '0'
+    center_freq11: '0'
+    center_freq12: '0'
+    center_freq13: '0'
+    center_freq14: '0'
+    center_freq15: '0'
+    center_freq16: '0'
+    center_freq17: '0'
+    center_freq18: '0'
+    center_freq19: '0'
+    center_freq2: '0'
+    center_freq20: '0'
+    center_freq21: '0'
+    center_freq22: '0'
+    center_freq23: '0'
+    center_freq24: '0'
+    center_freq25: '0'
+    center_freq26: '0'
+    center_freq27: '0'
+    center_freq28: '0'
+    center_freq29: '0'
+    center_freq3: '0'
+    center_freq30: '0'
+    center_freq31: '0'
+    center_freq4: '0'
+    center_freq5: '0'
+    center_freq6: '0'
+    center_freq7: '0'
+    center_freq8: '0'
+    center_freq9: '0'
+    clock_rate: 0e0
+    clock_source0: ''
+    clock_source1: ''
+    clock_source2: ''
+    clock_source3: ''
+    clock_source4: ''
+    clock_source5: ''
+    clock_source6: ''
+    clock_source7: ''
+    comment: ''
+    dc_offs_enb0: '""'
+    dc_offs_enb1: '""'
+    dc_offs_enb10: '""'
+    dc_offs_enb11: '""'
+    dc_offs_enb12: '""'
+    dc_offs_enb13: '""'
+    dc_offs_enb14: '""'
+    dc_offs_enb15: '""'
+    dc_offs_enb16: '""'
+    dc_offs_enb17: '""'
+    dc_offs_enb18: '""'
+    dc_offs_enb19: '""'
+    dc_offs_enb2: '""'
+    dc_offs_enb20: '""'
+    dc_offs_enb21: '""'
+    dc_offs_enb22: '""'
+    dc_offs_enb23: '""'
+    dc_offs_enb24: '""'
+    dc_offs_enb25: '""'
+    dc_offs_enb26: '""'
+    dc_offs_enb27: '""'
+    dc_offs_enb28: '""'
+    dc_offs_enb29: '""'
+    dc_offs_enb3: '""'
+    dc_offs_enb30: '""'
+    dc_offs_enb31: '""'
+    dc_offs_enb4: '""'
+    dc_offs_enb5: '""'
+    dc_offs_enb6: '""'
+    dc_offs_enb7: '""'
+    dc_offs_enb8: '""'
+    dc_offs_enb9: '""'
+    dev_addr: '""'
+    dev_args: '""'
+    gain0: '0'
+    gain1: '0'
+    gain10: '0'
+    gain11: '0'
+    gain12: '0'
+    gain13: '0'
+    gain14: '0'
+    gain15: '0'
+    gain16: '0'
+    gain17: '0'
+    gain18: '0'
+    gain19: '0'
+    gain2: '0'
+    gain20: '0'
+    gain21: '0'
+    gain22: '0'
+    gain23: '0'
+    gain24: '0'
+    gain25: '0'
+    gain26: '0'
+    gain27: '0'
+    gain28: '0'
+    gain29: '0'
+    gain3: '0'
+    gain30: '0'
+    gain31: '0'
+    gain4: '0'
+    gain5: '0'
+    gain6: '0'
+    gain7: '0'
+    gain8: '0'
+    gain9: '0'
+    iq_imbal_enb0: '""'
+    iq_imbal_enb1: '""'
+    iq_imbal_enb10: '""'
+    iq_imbal_enb11: '""'
+    iq_imbal_enb12: '""'
+    iq_imbal_enb13: '""'
+    iq_imbal_enb14: '""'
+    iq_imbal_enb15: '""'
+    iq_imbal_enb16: '""'
+    iq_imbal_enb17: '""'
+    iq_imbal_enb18: '""'
+    iq_imbal_enb19: '""'
+    iq_imbal_enb2: '""'
+    iq_imbal_enb20: '""'
+    iq_imbal_enb21: '""'
+    iq_imbal_enb22: '""'
+    iq_imbal_enb23: '""'
+    iq_imbal_enb24: '""'
+    iq_imbal_enb25: '""'
+    iq_imbal_enb26: '""'
+    iq_imbal_enb27: '""'
+    iq_imbal_enb28: '""'
+    iq_imbal_enb29: '""'
+    iq_imbal_enb3: '""'
+    iq_imbal_enb30: '""'
+    iq_imbal_enb31: '""'
+    iq_imbal_enb4: '""'
+    iq_imbal_enb5: '""'
+    iq_imbal_enb6: '""'
+    iq_imbal_enb7: '""'
+    iq_imbal_enb8: '""'
+    iq_imbal_enb9: '""'
+    lo_export0: 'False'
+    lo_export1: 'False'
+    lo_export10: 'False'
+    lo_export11: 'False'
+    lo_export12: 'False'
+    lo_export13: 'False'
+    lo_export14: 'False'
+    lo_export15: 'False'
+    lo_export16: 'False'
+    lo_export17: 'False'
+    lo_export18: 'False'
+    lo_export19: 'False'
+    lo_export2: 'False'
+    lo_export20: 'False'
+    lo_export21: 'False'
+    lo_export22: 'False'
+    lo_export23: 'False'
+    lo_export24: 'False'
+    lo_export25: 'False'
+    lo_export26: 'False'
+    lo_export27: 'False'
+    lo_export28: 'False'
+    lo_export29: 'False'
+    lo_export3: 'False'
+    lo_export30: 'False'
+    lo_export31: 'False'
+    lo_export4: 'False'
+    lo_export5: 'False'
+    lo_export6: 'False'
+    lo_export7: 'False'
+    lo_export8: 'False'
+    lo_export9: 'False'
+    lo_source0: internal
+    lo_source1: internal
+    lo_source10: internal
+    lo_source11: internal
+    lo_source12: internal
+    lo_source13: internal
+    lo_source14: internal
+    lo_source15: internal
+    lo_source16: internal
+    lo_source17: internal
+    lo_source18: internal
+    lo_source19: internal
+    lo_source2: internal
+    lo_source20: internal
+    lo_source21: internal
+    lo_source22: internal
+    lo_source23: internal
+    lo_source24: internal
+    lo_source25: internal
+    lo_source26: internal
+    lo_source27: internal
+    lo_source28: internal
+    lo_source29: internal
+    lo_source3: internal
+    lo_source30: internal
+    lo_source31: internal
+    lo_source4: internal
+    lo_source5: internal
+    lo_source6: internal
+    lo_source7: internal
+    lo_source8: internal
+    lo_source9: internal
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    nchan: '1'
+    norm_gain0: 'False'
+    norm_gain1: 'False'
+    norm_gain10: 'False'
+    norm_gain11: 'False'
+    norm_gain12: 'False'
+    norm_gain13: 'False'
+    norm_gain14: 'False'
+    norm_gain15: 'False'
+    norm_gain16: 'False'
+    norm_gain17: 'False'
+    norm_gain18: 'False'
+    norm_gain19: 'False'
+    norm_gain2: 'False'
+    norm_gain20: 'False'
+    norm_gain21: 'False'
+    norm_gain22: 'False'
+    norm_gain23: 'False'
+    norm_gain24: 'False'
+    norm_gain25: 'False'
+    norm_gain26: 'False'
+    norm_gain27: 'False'
+    norm_gain28: 'False'
+    norm_gain29: 'False'
+    norm_gain3: 'False'
+    norm_gain30: 'False'
+    norm_gain31: 'False'
+    norm_gain4: 'False'
+    norm_gain5: 'False'
+    norm_gain6: 'False'
+    norm_gain7: 'False'
+    norm_gain8: 'False'
+    norm_gain9: 'False'
+    num_mboards: '1'
+    otw: ''
+    rx_agc0: Default
+    rx_agc1: Default
+    rx_agc10: Default
+    rx_agc11: Default
+    rx_agc12: Default
+    rx_agc13: Default
+    rx_agc14: Default
+    rx_agc15: Default
+    rx_agc16: Default
+    rx_agc17: Default
+    rx_agc18: Default
+    rx_agc19: Default
+    rx_agc2: Default
+    rx_agc20: Default
+    rx_agc21: Default
+    rx_agc22: Default
+    rx_agc23: Default
+    rx_agc24: Default
+    rx_agc25: Default
+    rx_agc26: Default
+    rx_agc27: Default
+    rx_agc28: Default
+    rx_agc29: Default
+    rx_agc3: Default
+    rx_agc30: Default
+    rx_agc31: Default
+    rx_agc4: Default
+    rx_agc5: Default
+    rx_agc6: Default
+    rx_agc7: Default
+    rx_agc8: Default
+    rx_agc9: Default
+    samp_rate: rx_samp_rate
+    sd_spec0: A:A
+    sd_spec1: ''
+    sd_spec2: ''
+    sd_spec3: ''
+    sd_spec4: ''
+    sd_spec5: ''
+    sd_spec6: ''
+    sd_spec7: ''
+    show_lo_controls: 'False'
+    stream_args: ''
+    stream_chans: '[]'
+    sync: none
+    time_source0: ''
+    time_source1: ''
+    time_source2: ''
+    time_source3: ''
+    time_source4: ''
+    time_source5: ''
+    time_source6: ''
+    time_source7: ''
+    type: fc32
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [57, 206]
+    rotation: 0
+    state: enabled
+
+connections:
+- [analog_pwr_squelch_xx_0, '0', band_pass_filter_0, '0']
+- [analog_sig_source_x_0, '0', blocks_multiply_xx_1, '1']
+- [band_pass_filter_0, '0', epy_block_0, '0']
+- [band_pass_filter_0, '0', qtgui_const_sink_x_0, '0']
+- [band_pass_filter_0, '0', qtgui_waterfall_sink_x_1, '0']
+- [blocks_multiply_xx_1, '0', analog_pwr_squelch_xx_0, '0']
+- [blocks_pdu_to_tagged_stream_0_0_1, '0', digital_gfsk_mod_1, '0']
+- [blocks_socket_pdu_0_0, pdus, spp_create_packet_0, in]
+- [blocks_stream_to_tagged_stream_0, '0', digital_burst_shaper_xx_0, '0']
+- [burst_preamble_insert_0, out, blocks_pdu_to_tagged_stream_0_0_1, pdus]
+- [ccsds_reed_solomon_0, out, sdlp_destruct_frame_0, in]
+- [digital_burst_shaper_xx_0, '0', uhd_usrp_sink_0_0, '0']
+- [digital_gfsk_mod_1, '0', blocks_stream_to_tagged_stream_0, '0']
+- [epy_block_0, out, epy_block_1, in]
+- [epy_block_1, out, ccsds_reed_solomon_0, in]
+- [sdlp_create_frame_0, out, burst_preamble_insert_0, in]
+- [sdlp_destruct_frame_0, out, spp_destruct_packet_0, in]
+- [spp_create_packet_0, out, sdlp_create_frame_0, in]
+- [spp_destruct_packet_0, beacon, blocks_socket_pdu_0, pdus]
+- [spp_destruct_packet_0, elysium, blocks_socket_pdu_1_0, pdus]
+- [spp_destruct_packet_0, out, blocks_socket_pdu_1_0, pdus]
+- [spp_destruct_packet_0, sf2cmd, blocks_socket_pdu_1_0, pdus]
+- [spp_destruct_packet_0, tftp, blocks_socket_pdu_1, pdus]
+- [uhd_usrp_source_0, '0', analog_pwr_squelch_xx_0, '0']
+- [uhd_usrp_source_0, '0', blocks_file_sink_0_0_1, '0']
+- [uhd_usrp_source_0, '0', blocks_multiply_xx_1, '0']
+- [uhd_usrp_source_0, '0', qtgui_freq_sink_x_0, '0']
+- [uhd_usrp_source_0, '0', qtgui_waterfall_sink_x_0, '0']
+
+metadata:
+  file_format: 1

@@ -1,0 +1,22 @@
+# created by Ben Francis and James Smith
+# 29 Apr 2020
+
+id: ccsds_reed_solomon
+label: reed_solomon
+category: '[sdlp]'
+
+inputs:
+-   domain: message
+    id: in
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: exec(open("/home/spacecraft/cygnus/gnuradio/gr-sdlp/python/reed_solomon.py").read())
+    make: reed_solomon()
+
+documentation: |-
+    Created to implement the Reed Solomon c-code written by Nick Kohls
+file_format: 1

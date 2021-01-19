@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<block>
+  <name>create_frame</name>
+  <key>sdlp_create_frame</key>
+  <category>[sdlp]</category>
+  <import>execfile("/home/spacecraft/cygnus/gnuradio/gr-sdlp/python/create_frame.py")</import>
+  <make>create_frame($scid, $vcid, $TF_version, $ocf, $fecf, $bypass_flag, $control_command_flag)</make>
+   <param>
+     <name>SCID</name>
+     <key>scid</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>VCID</name>
+     <key>vcid</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>TF_version(0:TM 1:TC)</name>
+     <key>TF_version</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>Bypass Flag</name>
+     <key>bypass_flag</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>Control Command Flag</name>
+     <key>control_command_flag</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>OCF</name>
+     <key>ocf</key>
+     <type>int</type>
+   </param>
+   <param>
+     <name>FECF</name>
+     <key>fecf</key>
+     <type>int</type>
+   </param>
+ 
+   <!-- Make one 'sink' node per input. Sub-nodes:
+        * name (an identifier for the GUI)
+        * type
+        * vlen
+        * optional (set to 1 for optional inputs) -->
+   <sink>
+     <name>in</name>
+     <type>message</type>
+   </sink>
+
+ 
+   <!-- Make one 'source' node per output. Sub-nodes:
+        * name (an identifier for the GUI)
+        * type
+        * vlen
+        * optional (set to 1 for optional inputs) -->
+   <source>
+     <name>out</name>
+     <type>message</type>
+     <!--<vlen>40</vlen> --> <!--This sets the required length of vector coming out -->
+   </source>
+    <doc>
+      This Block is designed to create a frame according to the Space Data Link Protocol (SDLP). 
+        Input: This should be of message format and contain the data that will become the payload of the packet.
+        Output: This is of byte format which will contain a single constructed SDLP frame.
+
+  </doc>
+ </block>
